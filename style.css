@@ -1,0 +1,142 @@
+body {
+ /* background-color: #fafafa;
+  color: #ffffff;*/
+  background-color: rgb(83, 83, 83);
+  color: rgb(83, 83, 83);
+  font-family: "poppinsregular", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+
+a:hover {
+  color: #110ec9;
+  transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+  border: 2px solid #3b3b3b;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+  background-color: gray;
+  color: #000000;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 10px;
+  font-family: "poppinsmedium", sans-serif;
+}
+
+span {
+  color: white;
+}
+
+p {
+  line-height: 20px;
+  max-width: 500px;
+  font-family: "poppinslight", sans-serif;
+  color: white;
+}
+
+h3 {
+  color: white;
+  font-family: "poppinsmedium", sans-serif;
+}
+
+img {
+  width: 700px;
+  border-radius: 15%;
+  background-color: gray;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+form [type="submit"] {
+  height: 50px;
+  width: 50%;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+form [type="submit"]:hover {
+  cursor: pointer;
+}
+
+input {
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
+
+form [type="button"] {
+  height: 50px;
+  width: 50%;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+form [type="button"]:hover {
+  cursor: pointer;
+}
+
+form [type="submit"]:hover{
+  background-color: #253b4d;
+  transition: 1s;
+}
+
+form [type="button"]:hover{
+  background-color: #253b4d;
+  transition: 1s;
+}
